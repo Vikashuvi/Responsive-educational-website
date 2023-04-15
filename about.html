@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>KSRIET</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    
+    <link rel='stylesheet' href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+
+    <!--navigation-->
+
+    <nav>
+        <a href="index.html"><img src="ksriet.svg" alt="ksriet logo"></a>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="menu.png">
+        </div>
+    </nav>
+
+
+    <!-- home -->
+
+    <section id="about-home">
+        <h2>About KSRIET/</h2>
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="a.png">
+        </div>
+
+        <div class="about-text">
+            <h2>Welcome to KSRIET, Enhance your skills with best faculities</h2>
+            <p>Take your engineering career to new heights with our cutting-edge upskilling programs at KSRIET.</p>
+            
+            <div class="about-fe">
+                <img src="naac.jpg" alt="">
+                <div class="fe-text">
+                    <h5>NAAC A+</h5>
+                    <p>Elevate your education with our NAAC A+ accredited college - where excellence is the norm!</p>
+                </div>
+            </div>
+                
+                <div class="about-fe">
+                    <img src="nba.png" alt="">
+                    <div class="fe-text">
+                        <h5>NBA</h5> 
+                        <p>Experience top-notch education with our NBA accredited institution - where quality meets excellence!</p>
+                    </div>
+                </div>
+
+        </div>
+        </section>
+
+
+    <!--features-->
+
+    <section id="features">
+        <h1>Awesome features</h1>
+        <p>Engineering applies science and math to create practical solutions for improving society.</p>
+        <div class="fea-base">
+            <div class="fea-box"> 
+                <i class="fa fa-graduation-cap"></i>
+                <h3>Scholarship facility</h3>
+                <p>Education is the most powerful weapon which you can use to change the world.</p>
+            </div>
+
+
+            <div class="fea-box"> 
+                <i class="fa fa-desktop"></i>
+                <h3>Computer Science</h3>
+                <p>The computer was born to solve problems that did not exist before.</p>
+            </div>
+
+            <div class="fea-box"> 
+                <i class="fa fa-award"></i>
+                <h3>Graduation Certification</h3>
+                <p>Education is the key to unlocking your potential and achieving your dreams.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Replenish man have thing gathering lights yielding shall you. </p>
+        <div class="trust-img">
+            <img src="naac.jpg">
+            <img src="nba.png">
+            <img src="anna.png">
+            <img src="aicte.png">
+            <img src="tn.png">
+            <img src="ksredu.png">
+
+        </div>
+    </section>
+
+
+
+    <footer>
+
+        <div class="footer-col">
+            <h3>Academic</h3>
+            <li>Intake</li>
+            <li>Fee Details</li>
+            <li>Code of Contact</li>
+            <li>Regulation</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Campus</h3>
+            <li>News</li>
+            <li>Upcoming Events</li>
+            <li>Policies</li>
+            <li>Terms of Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Accreditation</h3>
+            <li>IQAC</li>
+            <li>NAAC PEER Team Visit</li>
+            <li>AICTE Approval</li>
+            <li>Anna University Approved</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Others</h3>
+            <li>Ranking</li>
+            <li>Awards</li>
+            <li>Placement Portal</li>
+            <li>Feedback</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Inquiry Letter</h3>
+            <p>Submit an inquiry for our college through Email, </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">INQUIRY</a>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            <p>Copyright &copy2023 all rights reserved | This website is made by vikash uvi</p>
+            <div class="pro-links">
+                <a href="https://github.com/Vikashuvi"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/vikash_uvi/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vikash-t-designer/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active')
+        })
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        })
+    </script>
+
+
+</body>
+</html>
